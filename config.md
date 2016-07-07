@@ -8,6 +8,13 @@ return [
         'request' => [
             'baseUrl' => ''
         ],
+        // ...
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+        ],
+        // ...
+    ],
     // ...
 ];
 ```
@@ -22,6 +29,13 @@ return [
         'request' => [
             'baseUrl' => '/adminpanel'
         ],
+        // ...
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+        ],
+        // ...
+    ],
     // ...
 ];
 ```
